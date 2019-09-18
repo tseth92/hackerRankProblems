@@ -1,7 +1,5 @@
 '''https://www.hackerrank.com/challenges/angry-children/problem'''
 
-####### Important : use sorted(arr) instead of ##################
-#### arr.sort() as it is way much faster and helps solve all tc's
 #!/bin/python3
 
 import math
@@ -15,6 +13,7 @@ def maxMin(k, arr):
     #print(arr)
     #print('printing arr')
     arr = sorted(arr)
+    # or use arr.sort()
     #print(arr)
     min_unfairness = 10000000000
     for i,v in enumerate(arr):
